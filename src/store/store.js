@@ -93,7 +93,7 @@ const store = createStore({
         throw error;
       }
       const countryList = {};
-      for (const key of data.data.Countries) {
+      for (const key of data?.data?.Countries) {
         countryList[key["CountryCode"]] = { ...key };
       }
       countryList.global = { ...data.data.Global };

@@ -1,6 +1,6 @@
 <template>
   <footer id="footer-bar">
-    <p>©2020 Kalligator</p>
+    <p>©2021 Kalligator</p>
     <div class="footer-icons">
       <router-link to="/">Map</router-link>
       <router-link to="/credits">About</router-link>
